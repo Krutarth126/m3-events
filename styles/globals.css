@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -14,3 +15,123 @@ a {
 * {
   box-sizing: border-box;
 }
+body[data-aos-duration="4000"] [data-aos],
+[data-aos][data-aos][data-aos-duration="4000"] {
+  transition-duration: 4000ms;
+}
+.nav__primary {
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  color: white !important;
+}
+.nav__primary a {
+  color: white !important;
+}
+
+.main-div {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  min-height: 300vh;
+  z-index: -999;
+  margin: 0px;
+  padding-top: 8vh;
+}
+
+.nav__primary li {
+  margin: 0px 10px;
+  font-weight: 600;
+}
+.nav__primary li:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
+  text-shadow: 0 13.36px 8.896px #c4b59d;
+}
+
+.body {
+  height: 50vh;
+  font-family: "Dela Gothic One";
+  color: #ff1010;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  width: 80%;
+  margin: auto;
+  background-image: url("https://wallpapercave.com/wp/wp7488231.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: hard-light;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.71);
+}
+
+#heading {
+  font-family: "Alfa Slab One";
+  text-align: center;
+  font-size: 60px;
+  color: #f9f9f9;
+}
+
+.home__container {
+  min-height: 100vh;
+}
+
+.glimpse {
+  min-height: 110vh;
+}
+
+.glimpse h1 {
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 50px;
+}
+
+.glimpse h2 {
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  /* margin-left: 100px; */
+  /* margin: auto; */
+  text-align: center;
+  color: #f9f9f9;
+  text-decoration: underline;
+}
+
+.booking h2 {
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 50px;
+}
+
+.home__container h2 {
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 50px;
+  margin-top: 80px;
+}
+
+.booking {
+  min-height: 100vh;
+}
+label {
+  color: white;
+  font-weight: 600;
+}
+
+/* .slider__div {
+  height: "50vh";
+  width: "30vw";
+  margin: "auto";
+  border: "2px solid yellow";
+  border-radius: "10px";
+} */
